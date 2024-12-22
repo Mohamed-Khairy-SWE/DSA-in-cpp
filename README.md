@@ -1,1 +1,1 @@
-# Data Structures and Algorithm Analysis in C++ by Mark Weiss
+# Data Structures and Algorithm Analysis in C++ book by Mark Weiss
