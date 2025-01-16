@@ -98,24 +98,101 @@ int main()
     */
 
     // Allocate memory for the array on the heap
-    int *arr = new int[5];
+    int *dyna_arr = new int[5];
 
     for (int i = 0; i < 5; i++)
     {
-        arr[i] = i + 1; // Assigning values
+        dyna_arr[i] = i + 1; // Assigning values
     }
 
     for (int i = 0; i < 5; i++)
     {
-        cout << arr[i] << " ";
+        cout << dyna_arr[i] << " ";
     }
 
     // Deallocate memory to prevent memory leaks
-    delete[] arr;
+    delete[] dyna_arr;
 
     cout << "\n";
 
     //----------------------------------------------------
 
+    /*
+        Arrays of structures:
+
+        Arrays can hold user-defined types like structures.
+     */
+
+    struct Student
+    {
+        string name;
+        int age;
+    };
+
+    Student student[2] = {{"alice", 30}, {"bob", 55}};
+
+    for (int i = 0; i < 2; i++)
+    {
+        cout << student[i].name << "is" << student[i].age << " , ";
+    }
+
+    cout << "\n";
+
+    //------------------------------------------------------
+
+    /*
+        Arrays of Pointers:
+
+        Arrays can hold pointers.
+     */
+
+    int a = 10, b = 20;
+
+    int *ptr_arr[2] = {&a, &b};
+
+    for (int i = 0; i < 2; i++)
+    {
+        cout << *ptr_arr[i] << " ";
+    }
+
+    cout << "\n";
+
+    //-----------------------------------------------------
+
+    /*
+        Arrays of Strings:
+
+        An array can store strings.
+     */
+
+    string arr[] = {"hello", "world"};
+
+    for (int i = 0; i < 2; i++)
+    {
+        cout << arr[i] << " ";
+    }
+
+    cout << "\n";
+
+    //-----------------------------------------------------
+
+    class Person
+    {
+    public:
+        string name;
+        Person(string n) : name(n) {}
+        void Display() { cout << name << " "; }
+    };
+
+    Person obj_arr[2] = {Person("mo"), Person("bob")};
+
+    for (int i = 0; i < 2; i++)
+    {
+        obj_arr[i].Display();
+    }
+
+    cout << "\n";
+
+    //-----------------------------------------------------
     return 0;
 }
