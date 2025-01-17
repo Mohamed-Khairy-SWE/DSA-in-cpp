@@ -2,6 +2,9 @@
 
 ## Data Structures
 
+### Linear Data Structures
+
 1. **Array**
    - Arrays in general
    - Jagged Array
+   - Sparse Matrix
