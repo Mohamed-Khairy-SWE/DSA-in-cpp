@@ -8,3 +8,4 @@
    - Arrays in general
    - Jagged Array
    - Sparse Matrix
+   - Circular Array
