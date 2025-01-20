@@ -10,3 +10,7 @@
    - Sparse Matrix
    - Circular Array
    - Vectors
+
+### Hashing and Associative Structures
+
+1. **Direct hashing**
