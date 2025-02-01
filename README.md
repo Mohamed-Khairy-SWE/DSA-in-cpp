@@ -14,3 +14,4 @@
 ### Hashing and Associative Structures
 
 1. **Direct hashing**
+2. **Static hashing**
