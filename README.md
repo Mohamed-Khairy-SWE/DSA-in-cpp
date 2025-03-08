@@ -15,3 +15,7 @@
 
 1. **Direct hashing**
 2. **Static hashing**
+
+## Computer Graphics
+
+1. **Bresenham's Circle Drawing**
