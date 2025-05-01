@@ -15,6 +15,8 @@
 
 1. **Direct hashing**
 2. **Static hashing**
+3. **Hash funcions**
+   - Division Method
 
 ## Computer Graphics
 
