@@ -17,6 +17,7 @@
 2. **Static hashing**
 3. **Hash funcions**
    - Division Method
+   - Multiplication Method
 
 ## Computer Graphics
 
