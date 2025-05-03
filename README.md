@@ -18,6 +18,7 @@
 3. **Hash funcions**
    - Division Method
    - Multiplication Method
+   - Mid-Square Method
 
 ## Computer Graphics
 
