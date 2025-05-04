@@ -19,6 +19,7 @@
    - Division Method
    - Multiplication Method
    - Mid-Square Method
+   - Folding Method
 
 ## Computer Graphics
 
