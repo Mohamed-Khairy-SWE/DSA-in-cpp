@@ -20,6 +20,8 @@
    - Multiplication Method
    - Mid-Square Method
    - Folding Method
+4. **Associative structures**
+   - Hash Map
 
 ## Computer Graphics
 
