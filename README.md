@@ -11,18 +11,5 @@
    - Circular Array
    - Vectors
 
-### Hashing and Associative Structures
-
-1. **Direct hashing**
-2. **Static hashing**
-3. **Hash funcions**
-   - Division Method
-   - Multiplication Method
-   - Mid-Square Method
-   - Folding Method
-4. **Associative structures**
-   - Hash Map
-
-## Computer Graphics
-
-1. **Bresenham's Circle Drawing**
+2. **LinkedList**
+   - Singly Linked List
