@@ -44,12 +44,12 @@
             .At middle: rewire pointers around the insertion point
         
         5. Deletion:
-            . At head: move head to nect node
+            . At head: move head to next node
 
             . At tail/middle: adjust previous node's next to skip the deleted node
 
     4. Complexity Analysis
-        Operation	            Time                    Complexity	Space Complexity
+        Operation	            Time Complexity	        Space Complexity
         Insert at head	        O(1)	                O(1)
         Insert at tail	        O(n)(or O(1) if tail    O(1)
                                 is head)	
