@@ -13,3 +13,4 @@
 
 2. **LinkedList**
    - Singly Linked List
+   - Doubly Linked List
