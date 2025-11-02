@@ -17,3 +17,5 @@
    - Circular Linked List
    
 3. **Stack**
+
+4. **Queue**
