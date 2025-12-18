@@ -19,3 +19,4 @@
 3. **Stack**
 
 4. **Queue**
+   - Simple Queue
