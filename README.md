@@ -20,3 +20,4 @@
 
 4. **Queue**
    - Simple Queue
+   - Circular Queue
