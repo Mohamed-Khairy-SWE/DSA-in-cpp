@@ -21,3 +21,9 @@
 4. **Queue**
    - Simple Queue
    - Circular Queue
+
+### Non-Linear Data Structures
+
+1. **Heap**
+   - Min Heap
+   - Max Heap
