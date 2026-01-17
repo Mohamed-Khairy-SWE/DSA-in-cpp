@@ -15,6 +15,7 @@
    - Singly Linked List
    - Doubly Linked List
    - Circular Linked List
+   - Circular Doubly Linked List
    
 3. **Stack**
 
