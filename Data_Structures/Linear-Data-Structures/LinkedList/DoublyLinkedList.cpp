@@ -1,35 +1,3 @@
-/*
-    1. Intuitive Explanation:
-
-        Think of a train where:
-            - Each coach knows its previous coach and next coach
-            - you can move both forward and backword along the train
-        That's Doubly linked list:
-            -Each node (coach) stores:
-                . Data
-                . A pointer to the next node
-                . A pointer to the pervious node
-            This makes it flexible than a singly linked list, which only knows the "next" node
-    
-    2. Real-World Use Cases:
-        . Undo/Redo in editors -> move forward and backward through states
-        . Browser history -> move to previous/next pages
-        . Music/video playlist -> skip forward and backward
-        . Deque (double ended queue) implementations.
-        . LRU Cache (in system design , used in browser/OS)
-    
-    3. step by step: How Doubly linked list works:
-        - inserting into Doubly linked list
-            . create a node with data
-            . Point newNode->next to the current node's next.
-            . Point newNode->prev to the current node's prev.
-            . adjust neighbor's pointers accordingly
-        - deletion
-            . Connect prev->next with next
-            . Connect next->prev with prev
-            . Free the node
-        
-*/
 
 #include <iostream>
 #include <cassert>
